@@ -15,14 +15,14 @@
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-  color: var(--primary-color);
+  color: $primary-color;
 
   margin-right: 80px;
   padding-top: 24px;
   padding-bottom: 25px;
 }
 .site-logo span {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 /* оформляет навигацию */
@@ -32,7 +32,7 @@
   padding-top: 33px;
   padding-bottom: 33px;
 
-  color: var(--primary-color);
+  color: $primary-color;
 
   letter-spacing: 0.02em;
   font-weight: 500;
@@ -41,7 +41,7 @@
 }
 
 .link.current {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .link.current::after {
@@ -53,7 +53,7 @@
   cursor: pointer;
   width: 100%;
   height: 4px;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   background-size: auto;
   border-radius: 2px;
 }
@@ -72,7 +72,7 @@
 }
 
 .page-header .contact {
-  color: var(--secondary-color);
+  color: $secondary-color;
   display: flex;
   align-items: center;
   padding-top: 32px;
@@ -85,15 +85,17 @@
   line-height: 1.14px;
 
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    color: $accent-color;
+  }
+  &:focus {
+    color: $accent-color;
+  }
 }
 
 .icon-contact {
   fill: currentColor;
   margin-right: 10px;
   padding-top: 2px;
-}
-
-.page-header .contact:hover,
-.page-header .contact:focus {
-  color: var(--accent-color);
 }

@@ -4,22 +4,28 @@ $secondary-color: #757575;
 $white-color: #ffffff;
 $accent-color: #2196f3;
 $background-color-dark-grey: rgba(47, 48, 58, 0.8);
+$container-width: 1200px;
+$padding-left: 15px;
+$padding-right: 15px;
+$margin-left: auto;
+$margin-right: auto;
+$main-font: Roboto, sans-serif;
 
 body {
-  background-color: #ffffff;
-  color: var(--primary-color);
+  background-color: $white-color;
+  color: $primary-color;
   letter-spacing: 0.03em;
-  font-family: Roboto, sans-serif;
+  font-family: $main-font;
 }
 
 /* -----УТИЛИТЫ------ */
 
 .container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  width: $container-width;
+  padding-left: $padding-left;
+  padding-right: $padding-right;
+  margin-left: $margin-left;
+  margin-right: $margin-right;
 
   /* outline: 2px solid skyblue; */
 }
@@ -58,8 +64,8 @@ body {
 
 /* основные стили кнопки */
 .button {
-  background-color: var(--accent-color);
-  color: var(--white-color);
+  background-color: $accent-color;
+  color: $white-color;
 
   display: inline-block;
   vertical-align: middle;
