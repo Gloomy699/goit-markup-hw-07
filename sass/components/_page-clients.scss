@@ -1,4 +1,8 @@
+.page-clients .title {
+  @extend %title;
+}
 .page-clients .list {
+  @extend %list;
   display: flex;
 }
 

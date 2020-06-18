@@ -5,11 +5,7 @@ $white-color: #ffffff;
 $accent-color: #2196f3;
 $background-color-secondary: #f5f4fa;
 $background-color-dark-grey: rgba(47, 48, 58, 0.8);
-$container-width: 1200px;
-$padding-left: 15px;
-$padding-right: 15px;
-$margin-left: auto;
-$margin-right: auto;
+
 $main-font: Roboto, sans-serif;
 
 body {
@@ -22,41 +18,41 @@ body {
 /* -----УТИЛИТЫ------ */
 
 .container {
-  width: $container-width;
-  padding-left: $padding-left;
-  padding-right: $padding-right;
-  margin-left: $margin-left;
-  margin-right: $margin-right;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 
   /* outline: 2px solid skyblue; */
 }
 
 /* убирает стилизацию списков */
-.list {
-  list-style: none;
-  margin: 0px;
-  padding: 0px;
-}
+// .list {
+//   list-style: none;
+//   margin: 0px;
+//   padding: 0px;
+// }
 
 /* основное оформление ссылок */
-.link {
-  text-decoration: none;
-}
+// .link {
+//   text-decoration: none;
+// }
 
-.soc-link {
-  display: flex;
-}
+// .soc-link {
+//   display: flex;
+// }
 
 /* оформляет заголовки секций */
-.title {
-  text-align: center;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
+// .title {
+//   text-align: center;
+//   font-weight: 700;
+//   font-size: 36px;
+//   line-height: 1.16;
 
-  margin-top: 0px;
-  padding: 0px;
-}
+//   margin-top: 0px;
+//   padding: 0px;
+// }
 
 .section {
   padding-top: 94px;
@@ -64,23 +60,23 @@ body {
 }
 
 /* основные стили кнопки */
-.button {
-  background-color: $accent-color;
-  color: $white-color;
+// .button {
+//   background-color: $accent-color;
+//   color: $white-color;
 
-  display: inline-block;
-  vertical-align: middle;
+//   display: inline-block;
+//   vertical-align: middle;
 
-  cursor: pointer;
+//   cursor: pointer;
 
-  font-size: 16px;
-  line-height: 1.87;
-  text-decoration: none;
-  border-radius: 4px;
-  min-width: 200px;
-  min-height: 50px;
-  letter-spacing: 0.06em;
-}
+//   font-size: 16px;
+//   line-height: 1.87;
+//   text-decoration: none;
+//   border-radius: 4px;
+//   min-width: 200px;
+//   min-height: 50px;
+//   letter-spacing: 0.06em;
+// }
 
 img {
   display: block;

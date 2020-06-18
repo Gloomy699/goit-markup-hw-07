@@ -20,6 +20,7 @@
 }
 
 .hero .title {
+  @extend %title;
   display: block;
   color: $white-color;
 
@@ -32,6 +33,7 @@
 }
 
 .hero .button {
+  @extend %button;
   padding: 10px 32px;
   font-weight: 700;
   font-style: normal;

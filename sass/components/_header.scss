@@ -1,9 +1,9 @@
 /* оформляет хедер */
 
 .page-header > .container,
-.page-header .main-nav,
-.page-header .nav-list,
-.page-header .contact-list {
+.main-nav,
+.nav-list,
+.contact-list {
   display: flex;
   margin-bottom: 0px;
 }
@@ -26,7 +26,12 @@
 }
 
 /* оформляет навигацию */
+.nav-list {
+  @extend %list;
+}
+
 .page-header .link {
+  @extend %link;
   position: relative;
   display: inline-block;
   padding-top: 33px;
@@ -64,6 +69,7 @@
 
 /* оформляет контакты */
 .page-header .contact-list {
+  @extend %list;
   margin-left: auto;
 }
 

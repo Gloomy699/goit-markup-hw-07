@@ -2,6 +2,7 @@
   background-color: #f5f4fa;
 }
 .page-team .list {
+  @extend %list;
   display: flex;
 }
 .page-team .photo {
@@ -11,6 +12,7 @@
 }
 
 .page-team .title {
+  @extend %title;
   margin-bottom: 50px;
 }
 .team-list > .item {
@@ -53,7 +55,7 @@
   margin-top: 0px;
 }
 
-.soc-link {
+.page-team .soc-link {
   padding-right: 32px;
   padding-left: 32px;
 }

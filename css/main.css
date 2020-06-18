@@ -17,25 +17,42 @@ body {
 }
 
 /* убирает стилизацию списков */
-.list {
+/* основное оформление ссылок */
+/* оформляет заголовки секций */
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+/* основные стили кнопки */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.page-advantages .shadow, .page-portfolio .shadow {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.nav-list, .page-header .contact-list, .page-advantages .list, .page-scils .list, .page-team .list, .page-clients .list, .address-list, .footer-page .soc-link, .filter-list .list, .page-portfolio .list {
   list-style: none;
   margin: 0px;
   padding: 0px;
 }
 
-/* основное оформление ссылок */
-.link {
+.page-header .link, .page-portfolio .link {
   text-decoration: none;
 }
 
-.soc-link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-/* оформляет заголовки секций */
-.title {
+.hero .title, .page-scils .title, .page-team .title, .page-clients .title {
   text-align: center;
   font-weight: 700;
   font-size: 36px;
@@ -44,13 +61,7 @@ body {
   padding: 0px;
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-/* основные стили кнопки */
-.button {
+.hero .button, .subscription .button, .backdrop .button {
   background-color: #2196f3;
   color: #ffffff;
   display: inline-block;
@@ -65,17 +76,11 @@ body {
   letter-spacing: 0.06em;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 /* оформляет хедер */
 .page-header > .container,
-.page-header .main-nav,
-.page-header .nav-list,
-.page-header .contact-list {
+.main-nav,
+.nav-list,
+.contact-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -210,17 +215,6 @@ img {
   border: 0;
 }
 
-.page-advantages .shadow {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 .page-advantages .list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -245,7 +239,7 @@ img {
 }
 
 .page-advantages .adv-title {
-  font-weight: 700;
+  font-size: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -284,7 +278,7 @@ img {
   border-radius: 4px;
 }
 
-.page-scils > .title {
+.page-scils .title {
   margin-bottom: 50px;
 }
 
@@ -359,7 +353,7 @@ img {
   margin-top: 0px;
 }
 
-.soc-link {
+.page-team .soc-link {
   padding-right: 32px;
   padding-left: 32px;
 }
@@ -521,6 +515,9 @@ img {
 }
 
 .footer-page .soc-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0;
 }
 
@@ -692,17 +689,6 @@ img {
           animation-duration: 2s;
   -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.page-portfolio .shadow {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 .portfolio {

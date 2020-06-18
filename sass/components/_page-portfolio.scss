@@ -1,12 +1,5 @@
 .page-portfolio .shadow {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+  @extend %invisible-title;
 }
 
 .portfolio {
@@ -19,6 +12,7 @@
 }
 
 .filter-list .list {
+  @extend %list;
   display: flex;
   justify-content: center;
 }
@@ -59,10 +53,14 @@
 /* оформляет примеры работ */
 
 .page-portfolio .list {
+  @extend %list;
   display: flex;
   flex-wrap: wrap;
 }
 
+.page-portfolio .link {
+  @extend %link;
+}
 .page-portfolio .item {
   width: calc((100% - 2 * 30px) / 3);
   margin-right: 30px;
