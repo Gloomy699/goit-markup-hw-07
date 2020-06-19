@@ -91,7 +91,7 @@
 }
 
 .exemple-description {
-  border: 1px solid #eeeeee;
+  @include bordered(#eeeeee);
   border-top: 0;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;

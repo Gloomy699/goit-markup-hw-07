@@ -18,7 +18,7 @@
   justify-content: center;
   align-items: center;
   height: 90px;
-  border: 1px solid $primary-icon-color;
+  @include bordered($primary-icon-color);
   border-radius: 4px;
   color: $primary-icon-color;
 
