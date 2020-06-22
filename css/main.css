@@ -6,7 +6,6 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-/* -----УТИЛИТЫ------ */
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -16,15 +15,11 @@ body {
   /* outline: 2px solid skyblue; */
 }
 
-/* убирает стилизацию списков */
-/* основное оформление ссылок */
-/* оформляет заголовки секций */
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-/* основные стили кнопки */
 img {
   display: block;
   max-width: 100%;
